@@ -1,0 +1,14 @@
+{
+  "name": "chillieguy",
+  "version": "1.0.0",
+  "description": "Personal website to show of my projects. Hosted using Firebase Hosting and using chillieguy.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chuck Underwood",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
