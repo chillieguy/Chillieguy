@@ -2,17 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
     <title>Chillieguy</title>
-    <link rel="stylesheet" href="styles/styles.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,800" rel="stylesheet">
+    <script src="https://use.fontawesome.com/15ee9bca9a.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <div id="message">
-      <h1>Welcome to Chillieguy.com</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <ul>
-        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
-      </ul>
+    <header class="main-header">
+      <nav class="main-nav">
+        <h1 class="name">Chillieguy</h1>
+        <ul class="nav-list">
+          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="portfolio/index.html">Portfolio</a></li>
+          <li><a href="about/index.html">About</a></li>
+          <!--<li><a href="resume/index.html">Resume</a></li>-->
+        </ul>
+        <img src="img/coffee_bg.jpg" alt="Page Banner">
+      </nav>
+    </header> <!-- /.main-header -->
+    <div class="container">
+      <div class="primary">
+        <h2>Welcome</h2>
+      </div> <!-- /.primary -->
+      <div class="secondary">
+        <h2>More Info</h2>
+      </div> <!-- /.secondary -->
+    </div> <!-- /.container -->
+    <footer class="main-footer">
+      <div class="social-links">
+        <ul class="social-list">
+          <li>
+            <a href="https://github.com/chillieguy" target="_blank">
+              <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/chillieguy" target="_blank">
+              <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/underwoodchuck" target="_blank">
+            <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>???</li>
+        </ul>
+      </div>
+    </footer> <!-- /.main-footer -->
     </div>
-    <script src="scripts/scripts.js"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
