@@ -39,9 +39,13 @@ h1 {
 
 /* --- Footer --- */
 
-.list-inline {
-  margin: 2em auto;
+.main-footer {
   text-align: center;
+  margin: 2em auto;
+}
+
+.list-inline {
+  margin-top: 1em;
 }
 
 
