@@ -6,17 +6,29 @@ html {
   font-family: 'Catamaran', sans-serif;
 }
 
+header {
+  /*margin-bottom: 50px;*/
+}
+
 h1 {
   font-size: 4rem;
   margin: .5rem auto;
 }
 
-
+.profilepic {
+  max-width: 175px;
+  border-radius: 15%;
+  width: auto;
+  height: auto;
+}
 
 /* ================================= 
   Base Layouts
 ==================================== */
+/* --- Banner --- */
+.banner {
 
+}
 
 /* --- Navigation --- */
 
@@ -27,6 +39,10 @@ h1 {
 
 /* --- Footer --- */
 
+.list-inline {
+  margin: 2em auto;
+  text-align: center;
+}
 
 
 
@@ -34,24 +50,21 @@ h1 {
   Media Querries
 ==================================== */
 /*
-/* for-phone-only */
-@media (max-width: 599px) { 
-  
-}
+/* for-phone & tablet */
+@media (max-width: 1200px) { 
+  .banner h1 {
+    font-size: 2em;
+    text-align: center;
+  }
 
-/* for-tablet-portrait-up */
-@media (min-width: 600px) { 
-  
-}
-
-/* for-tablet-landscape-up */
-@media (min-width: 900px) {
-  
+  .banner p {
+    text-align: justify;
+  }
 }
 
 /* for-desktop-up */
 @media (min-width: 1200px) {
-  
+
 }
 
 /* for-big-desktop-up */
