@@ -32,9 +32,7 @@ a:active {
   text-decoration: none;
 }
 
-a:hover {
-  transform: scale(1.1);
-}
+
 
 /* ================================= 
   Base Layouts
@@ -50,13 +48,32 @@ a:hover {
 /* --- /container ---*/
 
 /* --- Body ---*/
+
+.main-body {
+  background-color: lightgoldenrodyellow;
+}
+.learning-resources {
+  border-top: solid black 5px;
+  border-bottom: solid black 5px; 
+}
+
 .learning-resources-title {
-  margin-bottom: 2em;
+  margin-top: .5em;
+  margin-bottom: .75em;
+  
+}
+
+.project-list {
+  margin: .25em 1em;
+}
+
+.project-item {
+  
 }
 
 .card {
   margin-bottom: 1.25em;
-}
+} 
 
 .card img {
   max-width: 250px;
