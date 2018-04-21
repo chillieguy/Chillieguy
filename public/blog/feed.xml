@@ -3,8 +3,8 @@
   <channel>
     <title>Chuck Underwood</title>
     <description>Blogging about stuffs</description>
-    <link>http://chillieguy.com/blog</link>
-    <atom:link href="http://chillieguy.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://chillieguy.com/blog</link>
+    <atom:link href="https://chillieguy.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Second Post</title>
@@ -16,8 +16,8 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 </description>
         
         <pubDate>Fri, 20 Apr 2018 03:18:00 -0700</pubDate>
-        <link>http://chillieguy.com/blog/2018/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://chillieguy.com/blog/2018/welcome-to-jekyll/</guid>
+        <link>https://chillieguy.com/blog/2018/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://chillieguy.com/blog/2018/welcome-to-jekyll/</guid>
       </item>
     
       <item>
@@ -30,8 +30,8 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 </description>
         
         <pubDate>Sun, 10 Nov 2013 02:18:00 -0800</pubDate>
-        <link>http://chillieguy.com/blog/2013/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://chillieguy.com/blog/2013/welcome-to-jekyll/</guid>
+        <link>https://chillieguy.com/blog/2013/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://chillieguy.com/blog/2013/welcome-to-jekyll/</guid>
       </item>
     
   </channel>
