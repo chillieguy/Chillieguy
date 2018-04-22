@@ -7,31 +7,16 @@
     <atom:link href="https://chillieguy.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Second Post</title>
+        <title>Hello World</title>
         
         
-          <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+          <description>&lt;p&gt;Welcome to my &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello World!&lt;/code&gt; blog post.  My name is Chuck Underwood.  I am a husband to a wonderful, beautiful wife and father to three incredible young ladies.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Fri, 20 Apr 2018 03:18:00 -0700</pubDate>
+        <pubDate>Sat, 21 Apr 2018 13:52:00 -0700</pubDate>
         <link>https://chillieguy.com/blog/2018/welcome-to-jekyll/</link>
         <guid isPermaLink="true">https://chillieguy.com/blog/2018/welcome-to-jekyll/</guid>
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        
-        
-          <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sun, 10 Nov 2013 02:18:00 -0800</pubDate>
-        <link>https://chillieguy.com/blog/2013/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">https://chillieguy.com/blog/2013/welcome-to-jekyll/</guid>
       </item>
     
   </channel>
