@@ -1,1 +1,1 @@
-Sitemap: http://chillieguy.com/sitemap.xml
+Sitemap: https://chillieguy.com/sitemap.xml
