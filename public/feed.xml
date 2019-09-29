@@ -6,16 +6,25 @@
 </description>
     <link>https://chillieguy.com/</link>
     <atom:link href="https://chillieguy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Sep 2019 19:43:06 -0700</pubDate>
-    <lastBuildDate>Sat, 28 Sep 2019 19:43:06 -0700</lastBuildDate>
+    <pubDate>Sun, 29 Sep 2019 14:48:20 -0700</pubDate>
+    <lastBuildDate>Sun, 29 Sep 2019 14:48:20 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
+        <title>100 Days of SwiftUI - Day 7</title>
+        <description>&lt;h2 id=&quot;day-7&quot;&gt;Day 7&lt;/h2&gt; &lt;h3 id=&quot;100-days-of-swiftui&quot;&gt;100 Days of SwiftUI&lt;/h3&gt; &lt;p&gt;Second day of Closures. &lt;a href=&quot;https://www.hackingwithswift.com/100/swiftui&quot;&gt;Hacking with Swift&lt;/a&gt; finished up Closures with more advanced topics. Along with the videos and tests I...</description>
+        <pubDate>Sun, 29 Sep 2019 00:00:00 -0700</pubDate>
+        <link>https://chillieguy.com/100-days-of-swiftui/2019/09/29/day-7-100-days-of-swiftui.html</link>
+        <guid isPermaLink="true">https://chillieguy.com/100-days-of-swiftui/2019/09/29/day-7-100-days-of-swiftui.html</guid>
+        
+        
+        <category>100-Days-of-SwiftUI</category>
+        
+      </item>
+    
+      <item>
         <title>100 Days of SwiftUI - Day 6</title>
-        <description>&lt;h2 id=&quot;day-6&quot;&gt;Day 6&lt;/h2&gt;
-&lt;h3 id=&quot;100-days-of-swiftui&quot;&gt;100 Days of SwiftUI&lt;/h3&gt;
-
-</description>
+        <description>&lt;h2 id=&quot;day-6&quot;&gt;Day 6&lt;/h2&gt; &lt;h3 id=&quot;100-days-of-swiftui&quot;&gt;100 Days of SwiftUI&lt;/h3&gt; &lt;p&gt;What is a Closure? Straight from the Swift documentation on &lt;a href=&quot;https://docs.swift.org/swift-book/LanguageGuide/Closures.html&quot;&gt;Closures&lt;/a&gt;.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Closures are self-contained blocks of functionality that can be...</description>
         <pubDate>Sat, 28 Sep 2019 00:00:00 -0700</pubDate>
         <link>https://chillieguy.com/100-days-of-swiftui/2019/09/28/day-6-100-days-of-swiftui.html</link>
         <guid isPermaLink="true">https://chillieguy.com/100-days-of-swiftui/2019/09/28/day-6-100-days-of-swiftui.html</guid>
