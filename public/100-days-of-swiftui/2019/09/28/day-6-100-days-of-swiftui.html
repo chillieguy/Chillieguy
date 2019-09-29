@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>100 Days of SwiftUI - Day 4</title>
-  <meta name="description" content="Day 4100 Days of SwiftUI">
+  <title>100 Days of SwiftUI - Day 6</title>
+  <meta name="description" content="Day 6100 Days of SwiftUI">
   
   <meta name="author" content="Chuck Underwood">
   <meta name="copyright" content="&copy; Chuck Underwood 2019">
@@ -41,10 +41,10 @@
 
   
   <!-- Facebook OGP cards -->
-  <meta property="og:description" content="Day 4100 Days of SwiftUI" />
-  <meta property="og:url" content="https://chillieguy.com/100-days-of-swiftui/2019/09/26/day-4-100-days-of-swiftui.html">
+  <meta property="og:description" content="Day 6100 Days of SwiftUI" />
+  <meta property="og:url" content="https://chillieguy.com/100-days-of-swiftui/2019/09/28/day-6-100-days-of-swiftui.html">
   <meta property="og:site_name" content="Chuck Underwood" />
-  <meta property="og:title" content="100 Days of SwiftUI - Day 4" />
+  <meta property="og:title" content="100 Days of SwiftUI - Day 6" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://chillieguy.com/assets/logo.png" />
   <meta property="og:image:type" content="image/png" />
@@ -55,17 +55,17 @@
   
   <!-- Twitter: card tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="100 Days of SwiftUI - Day 4">
-  <meta name="twitter:description" content="Day 4100 Days of SwiftUI">
+  <meta name="twitter:title" content="100 Days of SwiftUI - Day 6">
+  <meta name="twitter:description" content="Day 6100 Days of SwiftUI">
   <meta name="twitter:image" content="https://chillieguy.com/assets/logo.png">
-  <meta name="twitter:url" content="https://chillieguy.com/100-days-of-swiftui/2019/09/26/day-4-100-days-of-swiftui.html">
+  <meta name="twitter:url" content="https://chillieguy.com/100-days-of-swiftui/2019/09/28/day-6-100-days-of-swiftui.html">
   
 
   
 
   <!-- Site styles -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://chillieguy.com/100-days-of-swiftui/2019/09/26/day-4-100-days-of-swiftui.html">
+  <link rel="canonical" href="https://chillieguy.com/100-days-of-swiftui/2019/09/28/day-6-100-days-of-swiftui.html">
   <link rel="alternate" type="application/rss+xml" title="Chuck Underwood" href="https://chillieguy.com/feed.xml" />
 </head>
 
@@ -120,7 +120,7 @@
 <div class="post-header-container " >
   <div class="scrim ">
     <header class="post-header">
-      <h1 class="title">100 Days of SwiftUI - Day 4</h1>
+      <h1 class="title">100 Days of SwiftUI - Day 6</h1>
       <p class="info">by <strong>Chuck Underwood</strong></p>
     </header>
   </div>
@@ -135,7 +135,7 @@
  
 
 <section class="post-meta">
-  <div class="post-date">September 26, 2019</div>
+  <div class="post-date">September 28, 2019</div>
   <div class="post-categories">
   in 
     
@@ -146,37 +146,9 @@
 </section>
 
 <article class="post-content">
-  <h2 id="day-4">Day 4</h2>
+  <h2 id="day-6">Day 6</h2>
 <h3 id="100-days-of-swiftui">100 Days of SwiftUI</h3>
 
-<p>Finished up Day 4.  All of about loops.</p>
-
-<p>Learned how to label an outside loop so we can exit nested loops at the level that we choose.</p>
-
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">outerLoop</span><span class="p">:</span> <span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="mi">1</span><span class="o">...</span><span class="mi">10</span> <span class="p">{</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="k">in</span> <span class="mi">1</span><span class="o">...</span><span class="mi">10</span> <span class="p">{</span>
-        <span class="k">let</span> <span class="nv">product</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">j</span>
-        <span class="nf">print</span> <span class="p">(</span><span class="s">"</span><span class="se">\(</span><span class="n">i</span><span class="se">)</span><span class="s"> * </span><span class="se">\(</span><span class="n">j</span><span class="se">)</span><span class="s"> is </span><span class="se">\(</span><span class="n">product</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>We can then set a condition in the inner loop to break out of both loops.</p>
-
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">outerLoop</span><span class="p">:</span> <span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="mi">1</span><span class="o">...</span><span class="mi">10</span> <span class="p">{</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="k">in</span> <span class="mi">1</span><span class="o">...</span><span class="mi">10</span> <span class="p">{</span>
-        <span class="k">let</span> <span class="nv">product</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">j</span>
-        <span class="nf">print</span> <span class="p">(</span><span class="s">"</span><span class="se">\(</span><span class="n">i</span><span class="se">)</span><span class="s"> * </span><span class="se">\(</span><span class="n">j</span><span class="se">)</span><span class="s"> is </span><span class="se">\(</span><span class="n">product</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
-
-        <span class="k">if</span> <span class="n">product</span> <span class="o">==</span> <span class="mi">73</span> <span class="p">{</span>
-            <span class="nf">print</span><span class="p">(</span><span class="s">"It's Sheldon's favorite number!"</span><span class="p">)</span>
-            <span class="k">break</span> <span class="n">outerLoop</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>If we did not break out of “outerloop”, the inner loop would break and the outer loop would continue to run.</p>
 
 </article>
 
@@ -193,7 +165,7 @@
   
     
     
-      <a href="//twitter.com/share?text=100+Days+of+SwiftUI+-+Day+4&url=https%3A%2F%2Fchillieguy.com%2F100-days-of-swiftui%2F2019%2F09%2F26%2Fday-4-100-days-of-swiftui.html&via=chillieguy"
+      <a href="//twitter.com/share?text=100+Days+of+SwiftUI+-+Day+6&url=https%3A%2F%2Fchillieguy.com%2F100-days-of-swiftui%2F2019%2F09%2F28%2Fday-6-100-days-of-swiftui.html&via=chillieguy"
         onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
         <i class="fa fa-twitter-square fa-lg"></i>
       </a>
@@ -228,7 +200,7 @@
     
     
     
-      <a href="//www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fchillieguy.com%2F100-days-of-swiftui%2F2019%2F09%2F26%2Fday-4-100-days-of-swiftui.html"
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fchillieguy.com%2F100-days-of-swiftui%2F2019%2F09%2F28%2Fday-6-100-days-of-swiftui.html"
         onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
         <i class="fa fa-linkedin-square fa-lg"></i>
       </a>
@@ -334,7 +306,7 @@
     
     
     
-      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('https://chillieguy.com/100-days-of-swiftui/2019/09/26/day-4-100-days-of-swiftui.html') + '&title=100 Days of SwiftUI - Day 4'; return false">
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('https://chillieguy.com/100-days-of-swiftui/2019/09/28/day-6-100-days-of-swiftui.html') + '&title=100 Days of SwiftUI - Day 6'; return false">
         <i class="fa fa-reddit-square fa-lg"></i>
       </a>
     
@@ -348,7 +320,7 @@
     
     
     
-      <a href="//news.ycombinator.com/submitlink" onclick="window.location = '//news.ycombinator.com/submitlink?u=' + encodeURIComponent('https://chillieguy.com/100-days-of-swiftui/2019/09/26/day-4-100-days-of-swiftui.html') + '&t=100 Days of SwiftUI - Day 4'; return false">
+      <a href="//news.ycombinator.com/submitlink" onclick="window.location = '//news.ycombinator.com/submitlink?u=' + encodeURIComponent('https://chillieguy.com/100-days-of-swiftui/2019/09/28/day-6-100-days-of-swiftui.html') + '&t=100 Days of SwiftUI - Day 6'; return false">
         <i class="fa fa-hacker-news fa-lg"></i>
       </a>
     
