@@ -6,9 +6,21 @@
 </description>
     <link>https://chillieguy.com/</link>
     <atom:link href="https://chillieguy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Sep 2019 14:48:20 -0700</pubDate>
-    <lastBuildDate>Sun, 29 Sep 2019 14:48:20 -0700</lastBuildDate>
+    <pubDate>Mon, 30 Sep 2019 20:07:21 -0700</pubDate>
+    <lastBuildDate>Mon, 30 Sep 2019 20:07:21 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>100 Days of SwiftUI - Day 8</title>
+        <description>&lt;h2 id=&quot;day-8&quot;&gt;Day 8&lt;/h2&gt; &lt;h3 id=&quot;100-days-of-swiftui&quot;&gt;100 Days of SwiftUI&lt;/h3&gt; &lt;p&gt;All about structs today. I actually watched all of the videos for today and tomorrow because I was learning with each video....</description>
+        <pubDate>Mon, 30 Sep 2019 00:00:00 -0700</pubDate>
+        <link>https://chillieguy.com/100-days-of-swiftui/2019/09/30/day-8-100-days-of-swiftui.html</link>
+        <guid isPermaLink="true">https://chillieguy.com/100-days-of-swiftui/2019/09/30/day-8-100-days-of-swiftui.html</guid>
+        
+        
+        <category>100-Days-of-SwiftUI</category>
+        
+      </item>
     
       <item>
         <title>100 Days of SwiftUI - Day 7</title>

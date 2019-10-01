@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>100-Days-of-SwiftUI</title>
-  <meta name="description" content="My little corner of the web.  I make things with Swift.
-">
+  <title>100 Days of SwiftUI - Day 8</title>
+  <meta name="description" content="Day 8100 Days of SwiftUI">
   
   <meta name="author" content="Chuck Underwood">
   <meta name="copyright" content="&copy; Chuck Underwood 2019">
@@ -42,11 +41,10 @@
 
   
   <!-- Facebook OGP cards -->
-  <meta property="og:description" content="My little corner of the web.  I make things with Swift.
-" />
-  <meta property="og:url" content="https://chillieguy.com/category/100-days-of-swiftui/">
+  <meta property="og:description" content="Day 8100 Days of SwiftUI" />
+  <meta property="og:url" content="https://chillieguy.com/100-days-of-swiftui/2019/09/30/day-8-100-days-of-swiftui.html">
   <meta property="og:site_name" content="Chuck Underwood" />
-  <meta property="og:title" content="100-Days-of-SwiftUI" />
+  <meta property="og:title" content="100 Days of SwiftUI - Day 8" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://chillieguy.com/assets/logo.png" />
   <meta property="og:image:type" content="image/png" />
@@ -57,18 +55,17 @@
   
   <!-- Twitter: card tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="100-Days-of-SwiftUI">
-  <meta name="twitter:description" content="My little corner of the web.  I make things with Swift.
-">
+  <meta name="twitter:title" content="100 Days of SwiftUI - Day 8">
+  <meta name="twitter:description" content="Day 8100 Days of SwiftUI">
   <meta name="twitter:image" content="https://chillieguy.com/assets/logo.png">
-  <meta name="twitter:url" content="https://chillieguy.com/category/100-days-of-swiftui/">
+  <meta name="twitter:url" content="https://chillieguy.com/100-days-of-swiftui/2019/09/30/day-8-100-days-of-swiftui.html">
   
 
   
 
   <!-- Site styles -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://chillieguy.com/category/100-days-of-swiftui/">
+  <link rel="canonical" href="https://chillieguy.com/100-days-of-swiftui/2019/09/30/day-8-100-days-of-swiftui.html">
   <link rel="alternate" type="application/rss+xml" title="Chuck Underwood" href="https://chillieguy.com/feed.xml" />
 </head>
 
@@ -118,44 +115,248 @@
 
 
     <div class="page-content">
-        <div class="wrapper">
-<div class="page">
+        <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">Posts in "100-days-of-swiftui"</h1>
-  </header>
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">100 Days of SwiftUI - Day 8</h1>
+      <p class="info">by <strong>Chuck Underwood</strong></p>
+    </header>
+  </div>
+</div>
 
-  <span class="page-divider">
+<div class="wrapper">
+
+ <span class="page-divider">
   <span class="one"></span>
   <span class="two"></span>
 </span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">September 30, 2019</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/100-Days-of-SwiftUI">100-days-of-swiftui</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <h2 id="day-8">Day 8</h2>
+<h3 id="100-days-of-swiftui">100 Days of SwiftUI</h3>
+
+<p>All about structs today.  I actually watched all of the videos for today and tomorrow because I was learning with each video.  Tomorrow I will rewatch all of the videos for structs and take all of the tests.</p>
+
+<p>When you want to change a property inside a method, you need to mark it using the mutating keyword.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">struct</span> <span class="kt">Contact</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span>
+
+    <span class="k">mutating</span> <span class="kd">func</span> <span class="nf">updateEmail</span><span class="p">(</span><span class="nv">new</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">email</span> <span class="o">=</span> <span class="n">newEmail</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Property Observers are also a helpful aspect of structs that let you run code before or after a property changes.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">struct</span> <span class="kt">Balance</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">account</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">var</span> <span class="nv">balance</span><span class="p">:</span> <span class="kt">Int</span>
+    <span class="k">var</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span>
+        <span class="k">didSet</span> <span class="p">{</span>
+            <span class="nf">print</span><span class="p">(</span><span class="s">"</span><span class="se">\(</span><span class="n">account</span><span class="se">)</span><span class="s"> now has a </span><span class="se">\(</span><span class="n">balance</span><span class="se">)</span><span class="s">."</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+</article>
 
 
-  <article class="post-content">
-    <ul class="posts-list">
-      
-      <li><strong><a class="post-link" href="/100-days-of-swiftui/2019/09/30/day-8-100-days-of-swiftui.html">100 Days of SwiftUI - Day 8</a></strong><span class="post-date"> - September 30, 2019</span></li>
-      
-      <li><strong><a class="post-link" href="/100-days-of-swiftui/2019/09/29/day-7-100-days-of-swiftui.html">100 Days of SwiftUI - Day 7</a></strong><span class="post-date"> - September 29, 2019</span></li>
-      
-      <li><strong><a class="post-link" href="/100-days-of-swiftui/2019/09/28/day-6-100-days-of-swiftui.html">100 Days of SwiftUI - Day 6</a></strong><span class="post-date"> - September 28, 2019</span></li>
-      
-      <li><strong><a class="post-link" href="/100-days-of-swiftui/2019/09/27/day-5-100-days-of-swiftui.html">100 Days of SwiftUI - Day 5</a></strong><span class="post-date"> - September 27, 2019</span></li>
-      
-      <li><strong><a class="post-link" href="/100-days-of-swiftui/2019/09/26/day-4-100-days-of-swiftui-copy.html">100 Days of SwiftUI - Day 4</a></strong><span class="post-date"> - September 26, 2019</span></li>
-      
-      <li><strong><a class="post-link" href="/100-days-of-swiftui/2019/09/25/day-3-100-days-of-swiftui.html">100 Days of SwiftUI - Day 3</a></strong><span class="post-date"> - September 25, 2019</span></li>
-      
-      <li><strong><a class="post-link" href="/100-days-of-swiftui/2019/09/24/day-2-100-days-of-swiftui.html">100 Days of SwiftUI - Day 2</a></strong><span class="post-date"> - September 24, 2019</span></li>
-      
-      <li><strong><a class="post-link" href="/100-days-of-swiftui/2019/09/23/day-1-100-days-of-swift.html">100 Days of SwiftUI - Day 1</a></strong><span class="post-date"> - September 23, 2019</span></li>
-      
-    </ul>
-  </article>
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=100+Days+of+SwiftUI+-+Day+8&url=https%3A%2F%2Fchillieguy.com%2F100-days-of-swiftui%2F2019%2F09%2F30%2Fday-8-100-days-of-swiftui.html&via=chillieguy"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fchillieguy.com%2F100-days-of-swiftui%2F2019%2F09%2F30%2Fday-8-100-days-of-swiftui.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('https://chillieguy.com/100-days-of-swiftui/2019/09/30/day-8-100-days-of-swiftui.html') + '&title=100 Days of SwiftUI - Day 8'; return false">
+        <i class="fa fa-reddit-square fa-lg"></i>
+      </a>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+      <a href="//news.ycombinator.com/submitlink" onclick="window.location = '//news.ycombinator.com/submitlink?u=' + encodeURIComponent('https://chillieguy.com/100-days-of-swiftui/2019/09/30/day-8-100-days-of-swiftui.html') + '&t=100 Days of SwiftUI - Day 8'; return false">
+        <i class="fa fa-hacker-news fa-lg"></i>
+      </a>
+    
+  
+</section>
+
+
+
 
 </div>
 </div>
-<br>
 
     </div>
 
