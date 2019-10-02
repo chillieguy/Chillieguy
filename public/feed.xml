@@ -6,9 +6,21 @@
 </description>
     <link>https://chillieguy.com/</link>
     <atom:link href="https://chillieguy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Sep 2019 20:07:21 -0700</pubDate>
-    <lastBuildDate>Mon, 30 Sep 2019 20:07:21 -0700</lastBuildDate>
+    <pubDate>Tue, 01 Oct 2019 18:33:26 -0700</pubDate>
+    <lastBuildDate>Tue, 01 Oct 2019 18:33:26 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>100 Days of SwiftUI - Day 9</title>
+        <description>&lt;h2 id=&quot;day-9&quot;&gt;Day 9&lt;/h2&gt; &lt;h3 id=&quot;100-days-of-swiftui&quot;&gt;100 Days of SwiftUI&lt;/h3&gt; &lt;p&gt;Rewatched the videos from &lt;a href=&quot;https://www.hackingwithswift.com/100/swiftui&quot;&gt;100 Days of SwiftUI&lt;/a&gt; Day 8 and Day 9.&lt;/p&gt; &lt;p&gt;Also spent some time reading the Swift documentation...</description>
+        <pubDate>Tue, 01 Oct 2019 00:00:00 -0700</pubDate>
+        <link>https://chillieguy.com/100-days-of-swiftui/2019/10/01/day-9-100-days-of-swiftui.html</link>
+        <guid isPermaLink="true">https://chillieguy.com/100-days-of-swiftui/2019/10/01/day-9-100-days-of-swiftui.html</guid>
+        
+        
+        <category>100-Days-of-SwiftUI</category>
+        
+      </item>
     
       <item>
         <title>100 Days of SwiftUI - Day 8</title>
